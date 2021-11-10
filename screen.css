@@ -1,0 +1,48 @@
+
+
+.row{
+    display: table;
+  
+    
+}
+.row {
+  display: flex;
+  text-align:center;
+  margin:2%;
+  padding:4%;  
+}
+.column {
+  flex: 50%;
+  float:right;
+  height:100px;
+  width:100%;
+  background:#C0C0C0;
+  border: 0.01px solid black;
+  border-collapse: collapse;
+  padding:10%;
+}
+.column1 {
+  flex: 50%;
+  float:right;
+  background:#C0C0C0;
+  height:74px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:25%;
+}
+
+
+table, th, td {
+  
+  flex: 50%;
+  padding:1%;
+  border-collapse: collapse;
+  border: 2px solid black;
+  width:70%;
+  margin:5%;
+}
+
+
+
+
+
